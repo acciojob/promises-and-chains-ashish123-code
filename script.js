@@ -10,7 +10,7 @@ const form = document.querySelector('form');
     const name = nameInput.value.trim();
 
     if (age === '' || name === '') {
-      alert('Please fill in both fields.');
+      alert('Please enter valid details');
       return;
     }
 
